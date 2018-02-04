@@ -1,5 +1,5 @@
 const divs = document.querySelectorAll("div");
-const button = document.querySelectorAll("button");
+const button = document.querySelector("button");
 
 function logText(e) {
   console.log(this.classList.value);
